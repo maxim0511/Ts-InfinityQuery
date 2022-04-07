@@ -1,0 +1,52 @@
+.Preloader{
+    width: 100%;
+    height: 100vh;
+}
+.Preloader p{
+    position: absolute;
+    height: 19px;
+    left: 45.5%;
+    right: 47.36%;
+    top: calc(50% - 19px/2 + 8.5px);
+    font-family: Acrom;
+    font-size: 14px;
+    line-height: 19px;
+    color: #303133
+}
+.Preloader_img {
+    position: absolute;
+    left: 43.5%;
+    right: 47.36%;
+    top: calc(25% - 19px/2 + 8.5px);
+    bottom: 51.17%;
+}
+@media (max-width:1400px){
+    .Preloader img {
+        left: 42.5%;
+    }
+}
+@media (max-width:1200px){
+    .Preloader img {
+        left: 41.5%;
+    }
+}
+@media (max-width:1000px){
+    .Preloader img {
+        left: 40%;
+    }
+}
+@media (max-width:700px){
+    .Preloader img {
+        left: 34%;
+    }
+}
+@media (max-width:450px){
+    .Preloader img {
+        left: 30%;
+    }
+}
+@media (max-width:400px){
+    .Preloader img {
+        left: 26%;
+    }
+}

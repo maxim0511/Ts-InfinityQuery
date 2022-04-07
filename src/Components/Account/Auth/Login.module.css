@@ -1,0 +1,78 @@
+.Login {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.LoginPage {
+    background-color: white;
+    width: 20%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.LoginName {
+   color: #ED5992;
+   font-weight: 100;
+}
+.login_form {
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+}
+.formItem {
+    font-size: 20px;
+    
+}
+.RegistrationPage {
+    height: 40px;
+    width: 35%;
+    text-align: center;
+    padding-top:1%;
+    font-size: 20px;
+}
+.RegistrationPage a {
+    color:#ED5992;
+}
+.RegistrationPage a:hover {
+    text-decoration: underline;
+}
+@media (max-width:1400px){
+    .LoginPage {
+        width: 25%;
+    }
+}
+@media (max-width:1200px){
+    .LoginPage {
+        width: 30%;
+    }
+}
+@media (max-width:991px){
+    .LoginPage {
+        width: 38%;
+    }
+}
+@media (max-width:768px){
+    .LoginPage {
+        width: 55%;
+    }
+}
+@media (max-width:515px){
+    .LoginPage {
+        width: 75%;
+    }
+}
+@media (max-width:400px){
+    .LoginPage {
+        width: 90%;
+    }
+}
+@media (max-width:315px) {
+    .LoginPage {
+        width: 110%;
+    }
+}

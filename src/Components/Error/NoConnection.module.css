@@ -1,0 +1,27 @@
+.ErrorConnect{
+    position:absolute;
+    width: 15%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.ErrorConnect_logo {
+    border: 4px dashed grey;
+}
+.ErrorConnect_h{
+    display:block;
+    margin-top:10px; 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:purple;
+}
+.ErrorConnect_desc{
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+}

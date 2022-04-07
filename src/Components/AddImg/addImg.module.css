@@ -1,0 +1,32 @@
+
+.AddImgPage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    width: 20%;
+    margin-top: 6%;
+}
+.button {
+    width: 120px;
+    margin-left: 50px;
+    height: 40px;
+    border: 0px;
+    color: white;
+    background-color: #ED5992;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+}
+.ImageAddInServer {
+    text-align: center;
+}
+.h2 {
+    color: green;
+}
